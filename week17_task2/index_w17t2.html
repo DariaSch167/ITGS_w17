@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Автопарк</title>
+    <style>
+      body {
+        background-color: rgb(219, 217, 217);
+      }
+      h1 {
+        text-align: center;
+      }
+      .transport-image {
+        width: 15rem;
+        height: 8rem;
+        object-fit: fill;
+      }
+      .transport__container {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 20%);
+        justify-content: space-evenly;
+      }
+      .transport {
+        background-color: rgb(138, 137, 137);
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Транспортный парк автомобильной компании</h1>
+    <div class="transport__container"></div>
+    <script src="./script_w17t2.js"></script>
+  </body>
+</html>
